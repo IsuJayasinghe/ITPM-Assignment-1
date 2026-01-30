@@ -78,13 +78,13 @@ test('Pos_Fun_0005 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=උදව්වක්');
+  const outputBox = page.locator('text=උදව්වක් ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('උදව්වක්');
+  await expect(outputBox).toContainText('උදව්වක් ');
 });
 test('Pos_Fun_0006 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
