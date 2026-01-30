@@ -9,13 +9,13 @@ test('Pos_Fun_0001 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=යනවා');
+  const outputBox = page.locator('text=යනවා ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('යනවා');
+  await expect(outputBox).toContainText('යනවා ');
 });
 
 test('Pos_Fun_0002 – Simple Singlish to Sinhala conversion', async ({ page }) => {
@@ -43,13 +43,13 @@ test('Pos_Fun_0003 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=කන්න');
+  const outputBox = page.locator('text=කන්න ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('කන්න');
+  await expect(outputBox).toContainText('කන්න ');
 });
 test('Pos_Fun_0004 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -60,13 +60,13 @@ test('Pos_Fun_0004 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=තියෙන්නේ');
+  const outputBox = page.locator('text=තියෙන්නේ ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('තියෙන්නේ');
+  await expect(outputBox).toContainText('තියෙන්නේ ');
 });
 
 test('Pos_Fun_0005 – Simple Singlish to Sinhala conversion', async ({ page }) => {
@@ -78,13 +78,13 @@ test('Pos_Fun_0005 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=උදව්වක් ');
+  const outputBox = page.locator('text=උදව්වක්');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('උදව්වක් ');
+  await expect(outputBox).toContainText('උදව්වක්');
 });
 test('Pos_Fun_0006 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -95,13 +95,13 @@ test('Pos_Fun_0006 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=කරනවා');
+  const outputBox = page.locator('text=කරනවා ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('කරනවා');
+  await expect(outputBox).toContainText('කරනවා ');
 });
 test('Pos_Fun_0007 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -163,13 +163,13 @@ test('Pos_Fun_0010 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=කරනවා');
+  const outputBox = page.locator('text=කරනවා ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('කරනවා');
+  await expect(outputBox).toContainText('කරනවා ');
 });
 test('Pos_Fun_0011 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -180,13 +180,13 @@ test('Pos_Fun_0011 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=මගේ');
+  const outputBox = page.locator('text=මගේ ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('මගේ');
+  await expect(outputBox).toContainText('මගේ ');
 });
 test('Pos_Fun_0012 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -197,13 +197,13 @@ test('Pos_Fun_0012 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=තියෙනවා');
+  const outputBox = page.locator('text=තියෙනවා ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('තියෙනවා');
+  await expect(outputBox).toContainText('තියෙනවා ');
 });
 test('Pos_Fun_0013 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -214,13 +214,13 @@ test('Pos_Fun_0013 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=එවන්න');
+  const outputBox = page.locator('text=එවන්න ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('එවන්න');
+  await expect(outputBox).toContainText('එවන්න ');
 });
 test('Pos_Fun_0014 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -237,7 +237,7 @@ test('Pos_Fun_0014 – Simple Singlish to Sinhala conversion', async ({ page }) 
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('හෙට');
+  await expect(outputBox).toContainText('හෙට ');
 });
 test('Pos_Fun_0015 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -254,7 +254,7 @@ test('Pos_Fun_0015 – Simple Singlish to Sinhala conversion', async ({ page }) 
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('කරමු');
+  await expect(outputBox).toContainText('කරමු ');
 });
 test('Pos_Fun_0016 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -288,7 +288,7 @@ test('Pos_Fun_0017 – Simple Singlish to Sinhala conversion', async ({ page }) 
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('කරනවා');
+  await expect(outputBox).toContainText('කරනවා ');
 });
 test('Pos_Fun_0018 – Simple Singlish to Sinhala conversion', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
@@ -401,11 +401,11 @@ test('Pos_Fun_0024 – Simple Singlish to Sinhala conversion', async ({ page }) 
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=කරන්නම්');
+  const outputBox = page.locator('text=කරන්නම් ');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('කරන්නම්');
+  await expect(outputBox).toContainText('කරන්නම් ');
 });
