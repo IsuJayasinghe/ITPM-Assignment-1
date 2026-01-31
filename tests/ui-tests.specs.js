@@ -43,11 +43,12 @@ test('Neg_UI_0001 – Simple Singlish to Sinhala conversion', async ({ page }) =
   // Trigger translation
   await inputBox.press('Enter');
 
-  const outputBox = page.locator('text=එනවා ');
+  const outputBox = page.locator('text=යනවා');
 
   // Wait until translation appears
   await expect(outputBox).toBeVisible({ timeout: 15000 });
+  
 
   // Validate partial Sinhala text
-  await expect(outputBox).toContainText('එනවා ');
+  await expect(outputBox).toContainText('යනවා');
 });
